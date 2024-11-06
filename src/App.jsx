@@ -127,12 +127,15 @@ function App() {
       </div>
 
       {/* Responsive Design */}
+      <div className="flex justify-center border border-black text-xl font-semibold">
+      Responsive Design
+      </div>
       <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <div class="md:flex">
           <div class="md:shrink-0">
             <img
               class="h-48 w-full object-cover md:h-full md:w-48"
-              src="/img/building.jpg"
+              src = "./building.jpg"
               alt="Modern building architecture"
             />
           </div>
@@ -152,6 +155,20 @@ function App() {
               that.
             </p>
           </div>
+        </div>
+      </div>
+      <div className="bg-orange-500 xl:bg-red-500 lg:bg-green-500 md:bg-blue-500 sm:bg-yellow-500 border border-black-8">
+        <h2>Responsive Design</h2>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-3">
+      <div className="bg-lime-500 text-white p-4 rounded-lg shadow-md ">
+          01
+        </div>
+        <div className="bg-violet-500 text-white p-4 rounded-lg shadow-md ">
+          02
+        </div>
+        <div className="bg-sky-500 text-white p-4 rounded-lg shadow-md  ">
+          03
         </div>
       </div>
     </>
