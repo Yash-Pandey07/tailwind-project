@@ -13,8 +13,10 @@ function App() {
         <div style={{ backgroundColor: "yellow" }}>
           justifyContent : "center"
         </div>
-        <div style={{ backgroundColor: "red" }}>H2</div>
-        <div style={{ backgroundColor: "green" }}>H3</div>
+        <div style={{ backgroundColor: "red" }}>justifyContent : "center"</div>
+        <div style={{ backgroundColor: "green" }}>
+          justifyContent : "center"`1
+        </div>
       </div>
 
       <div className="flex justify-center border border-black text-xl font-semibold">
@@ -60,7 +62,7 @@ function App() {
       <div className="flex justify-center border border-black text-xl font-semibold">
         Grid with 3 col
       </div>
-      <div className="grid grid-cols-3 border border-black">
+      <div className="grid grid-cols-3 border border-black text-xl font-semibold">
         <div className="bg-yellow-300 p-2">H1</div>
         <div className="bg-red-300 p-2">H2</div>
         <div className="bg-green-300 p-2">H3</div>
@@ -128,14 +130,14 @@ function App() {
 
       {/* Responsive Design */}
       <div className="flex justify-center border border-black text-xl font-semibold">
-      Responsive Design
+        Responsive Design
       </div>
       <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
         <div class="md:flex">
           <div class="md:shrink-0">
             <img
               class="h-48 w-full object-cover md:h-full md:w-48"
-              src = "./building.jpg"
+              src="./building.jpg"
               alt="Modern building architecture"
             />
           </div>
@@ -157,11 +159,11 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-orange-500 xl:bg-red-500 lg:bg-green-500 md:bg-blue-500 sm:bg-yellow-500 border border-black-8">
-        <h2>Responsive Design</h2>
+      <div className="flex justify-center border border-black text-xl font-semibold bg-orange-500 xl:bg-red-500 lg:bg-green-500 md:bg-blue-500 sm:bg-yellow-500 border border-black-8 font-semibold">
+        <h2>Responsive Design 1</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3">
-      <div className="bg-lime-500 text-white p-4 rounded-lg shadow-md ">
+        <div className="bg-lime-500 text-white p-4 rounded-lg shadow-md ">
           01
         </div>
         <div className="bg-violet-500 text-white p-4 rounded-lg shadow-md ">
@@ -169,6 +171,35 @@ function App() {
         </div>
         <div className="bg-sky-500 text-white p-4 rounded-lg shadow-md  ">
           03
+        </div>
+      </div>
+      <div className="flex justify-center border border-black text-xl font-semibold bg-orange-500 xl:bg-red-500 lg:bg-green-500 md:bg-blue-500 sm:bg-yellow-500 border border-black-8">
+        <h2>Responsive Design 2</h2>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div className="bg-blue-500 text-white p-4 rounded-lg shadow-md">
+          01
+        </div>
+        <div className="bg-green-500 text-white p-4 rounded-lg shadow-md  ">
+          02
+        </div>
+        <div className="bg-red-500 text-white p-4 rounded-lg shadow-md  ">
+          03
+        </div>
+        <div className="bg-yellow-500 text-white p-4 rounded-lg shadow-md ">
+          04
+        </div>
+        <div className="bg-purple-500 text-white p-4 rounded-lg shadow-md ">
+          05
+        </div>
+        <div className="bg-pink-500 text-white p-4 rounded-lg shadow-md ">
+          06
+        </div>
+        <div className="bg-indigo-500 text-white p-4 rounded-lg shadow-md">
+          07
+        </div>
+        <div className="bg-lime-500 text-white p-4 rounded-lg shadow-md">
+          08
         </div>
       </div>
     </>
