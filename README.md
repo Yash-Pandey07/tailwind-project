@@ -28,7 +28,7 @@ To get started with the project, follow these steps:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/Shivam29k/dukaaan-app-ui.git
+    git clone https://github.com/Yash-Pandey07/tailwind-project
     ```
 
 2. Navigate into the project directory:
