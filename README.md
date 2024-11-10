@@ -7,6 +7,7 @@ This project is a simple clone of the Dukaan app's UI, built with React and Tail
 You can see the Dukaan app's UI in action here:
 
 - [Tweet by the Dukaan CTO Shubash Choudhary](https://x.com/subhashchy/status/1744308069751025894?t=MrLV-PSnfsgv0Hg2jTz5JA&s=08)
+- [Figma Link](https://www.figma.com/design/1QTpfgcJLng3SEHv3V7Nr4/Payouts-V2---2023)
 
 ## Features
 
