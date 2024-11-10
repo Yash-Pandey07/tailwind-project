@@ -4,16 +4,17 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import PraticeTailwind from "./components/PraticeTailwind";
 import RevenueCard from "./components/RevenueCard";
+import Overview from "./components/Overview";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-    {/* <PraticeTailwind /> */}
-    <div className="grid grid-cols-4">
-    <RevenueCard title={"Amount pending"} amount={"7786.95"} orderCount = {13}/>
-    </div>
+      {/* <PraticeTailwind /> */}
+      <div className="m-5 mb-0 sm:ml-64 grid gap-8">
+        <Overview />
+      </div>
     </>
   );
 }
